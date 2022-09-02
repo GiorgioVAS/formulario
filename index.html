@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <form id="form">
+        <div class="form">
+    <section class="form-register">
+        <p>Nombre</p>
+        <input class="control" type="text" name="Nombres" id="nombre" placeholder="Ingrese su nombre" required>
+        <p >Correo</p>
+        <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico" required>
+        <p >Numero Random</p>
+        <input class="control" type="text" name="numero" id="numero" placeholder="Ingrese su numero" required >
+        
+        <input class="boton" type="submit" value="Registrar">
+        
+        <p class="warnings" id="warnings"></p>
+    </section>
+    </div>
+        
+    </form>
+    <script src="js/app.js"></script>
+</body>
+</html>
